@@ -24,7 +24,6 @@ class AppAsset extends AssetBundle
         'css/common.css'
     ];
     public $js = [
-        'js/index.js',
         'js/script.js',
         'js/jquery-ui.js',
     ];

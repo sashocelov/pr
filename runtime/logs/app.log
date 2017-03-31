@@ -1,0 +1,1289 @@
+2017-03-31 20:09:51 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:09:50 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2496'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983790.801
+    'REQUEST_TIME' => 1490983790
+]
+2017-03-31 20:11:43 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:11:43 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2523'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983903.401
+    'REQUEST_TIME' => 1490983903
+]
+2017-03-31 20:11:47 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:11:47 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2528'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983907.474
+    'REQUEST_TIME' => 1490983907
+]
+2017-03-31 20:12:15 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:12:15 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2544'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983935.796
+    'REQUEST_TIME' => 1490983935
+]
+2017-03-31 20:12:33 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:12:33 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2550'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983953.119
+    'REQUEST_TIME' => 1490983953
+]
+2017-03-31 20:12:40 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:12:39 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2553'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983959.968
+    'REQUEST_TIME' => 1490983959
+]
+2017-03-31 20:12:54 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:12:54 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2562'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490983974.179
+    'REQUEST_TIME' => 1490983974
+]
+2017-03-31 20:14:01 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:14:01 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2573'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984041.559
+    'REQUEST_TIME' => 1490984041
+]
+2017-03-31 20:14:16 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:14:16 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/wec/web/logingr'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2580'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984056.791
+    'REQUEST_TIME' => 1490984056
+]
+2017-03-31 20:14:20 [::1][-][dac31tkugo0tovhfk940jbdfr4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:14:20 [::1][-][dac31tkugo0tovhfk940jbdfr4][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SESSION = [
+    'lg' => 'bg'
+    '2accd77bc9305d7a0d5168e758a72b71__returnUrl' => '/eventus/themes/bootstrap/css/normalize.min.css.map'
+    '2accd77bc9305d7a0d5168e758a72b71cb97fe9d314dd7f3609cc1cc309a60fd' => '3'
+    '2accd77bc9305d7a0d5168e758a72b717d0a0310a81ec471ca690e4fa9d18de8' => '2020-04-05 00:00:00'
+    '2accd77bc9305d7a0d5168e758a72b7135e28bb1d6db9dd3955b98d1e82c2915' => 'test'
+    '2accd77bc9305d7a0d5168e758a72b713a03a3a093ce437c8968e3c601b4a5a5' => 'BGN'
+    '2accd77bc9305d7a0d5168e758a72b71__id' => '42'
+    '2accd77bc9305d7a0d5168e758a72b71__name' => 'testAdmin'
+    '2accd77bc9305d7a0d5168e758a72b71__states' => []
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2580'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984060.137
+    'REQUEST_TIME' => 1490984060
+]
+2017-03-31 20:15:08 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:15:08 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\components\SVController' not found' in C:\xampp\htdocs\wec\controllers\SiteController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-03-31 20:15:08 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2591'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984108.292
+    'REQUEST_TIME' => 1490984108
+]
+2017-03-31 20:15:18 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "logingr".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('logingr', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:15:18 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2594'
+    'REDIRECT_URL' => 'http://localhost/wec/web/logingr'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/logingr'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984118.56
+    'REQUEST_TIME' => 1490984118
+]
+2017-03-31 20:20:09 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Application::baseUrl()' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\xampp\htdocs\wec\views\site\index.php(1): yii\base\Component->__call('baseUrl', Array)
+#1 C:\xampp\htdocs\wec\views\site\index.php(1): yii\web\Application->baseUrl()
+#2 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#6 C:\xampp\htdocs\wec\controllers\SiteController.php(25): yii\base\Controller->render('index', Array)
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#14 {main}
+2017-03-31 20:20:09 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2747'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984409.762
+    'REQUEST_TIME' => 1490984409
+]
+2017-03-31 20:20:17 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Application::baseUrl()' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\xampp\htdocs\wec\views\site\index.php(1): yii\base\Component->__call('baseUrl', Array)
+#1 C:\xampp\htdocs\wec\views\site\index.php(1): yii\web\Application->baseUrl()
+#2 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#6 C:\xampp\htdocs\wec\controllers\SiteController.php(25): yii\base\Controller->render('index', Array)
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#14 {main}
+2017-03-31 20:20:17 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '2748'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984417.024
+    'REQUEST_TIME' => 1490984417
+]
+2017-03-31 20:29:42 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "ajax/test.html".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ajax/test.html', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:29:42 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/wec/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '3063'
+    'REDIRECT_URL' => 'http://localhost/wec/web/ajax/test.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/ajax/test.html'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984982.162
+    'REQUEST_TIME' => 1490984982
+]
+2017-03-31 20:29:51 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "google.bg".' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('google.bg', Array)
+#1 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страницата не беше намерена.' in C:\xampp\htdocs\wec\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wec\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\wec\web\index.php(16): yii\base\Application->run()
+#2 {main}
+2017-03-31 20:29:51 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1532177925.1483385046'
+    '_csrf' => 'c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE\";}'
+    'wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91' => 'test|1491059188|bZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO|fa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5'
+    'PHPSESSID' => 'dac31tkugo0tovhfk940jbdfr4'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/wec/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'bg-BG,bg;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1532177925.1483385046; _csrf=c8f366e5801acdb1d69703995b74a3b0d56ce3bca2378a0e59ff2134d29d62e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22X5ods-E6mg3mG_-NYDUqBL2HaHIXA8RE%22%3B%7D; wordpress_logged_in_bbfa5b726c6b7a9cf3cda9370be3ee91=test%7C1491059188%7CbZ1YwHhDwL9k5sV7FZHcWf6dgjU6QcvQ6puNntKEdAO%7Cfa7aeaa5c3c8a1f649e802fced573e11cdb284e736b9570e7c22e8e185386fc5; PHPSESSID=dac31tkugo0tovhfk940jbdfr4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/wec/web/index.php'
+    'REMOTE_PORT' => '3069'
+    'REDIRECT_URL' => 'http://localhost/wec/web/google.bg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wec/web/google.bg'
+    'SCRIPT_NAME' => '/wec/web/index.php'
+    'PHP_SELF' => '/wec/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1490984991.328
+    'REQUEST_TIME' => 1490984991
+]

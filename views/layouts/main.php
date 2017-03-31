@@ -31,9 +31,6 @@ AppAsset::register($this);
         $isHome = (($controller->id === $default_controller) && ($controller->action->id === $controller->defaultAction)) ? true : false;
         $this->registerJs("
             var strUrl = '".Yii::getAlias('@web')."';
-            if ($('.bg').length > 0 && $('.bg').data('img') !== null) {
-                $('body').css({'background-image' : $('.bg').data('img')});
-            }
             ", VIEW::POS_HEAD, 'params');
 
     ?>
@@ -54,22 +51,10 @@ AppAsset::register($this);
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-left'],
                 'items' => [
-                    [
-                        'label' => Yii::t('app', 'Рецепция'),
-                        'url' => ['/reception'],
-                    ],
-                    [
-                        'label' => Yii::t('app', 'Стаи'),
-                        'url' => ['/rooms'],
-                    ],
-                    [
-                        'label' => Yii::t('app', 'Типове стаи'),
-                        'url' => ['/roomtypes'],
-                    ],
-                    [
-                        'label' => Yii::t('app', 'Статуси на стаи'),
-                        'url' => ['/roomstatuses'],
-                    ],
+                    // [
+                    //     'label' => Yii::t('app', 'Рецепция'),
+                    //     'url' => ['/reception'],
+                    // ],
                     (
                         '<li>'
                         . Html::beginForm(['/site/logout'], 'post')
@@ -92,11 +77,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        &copy; Tundle Software Solutions <?= date('Y') ?>
+        &copy; <?= Yii::$app->params['siteName']; ?> <?= date('Y') ?>
     </div>
 </footer>
-<div class="event_execution_container">
-</div>
 
 <div id="message-mask" class="hidden"></div>
 <div id="info-message" class="hidden">
