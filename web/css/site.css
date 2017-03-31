@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+body nav.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+    height: 52px;
+}
+
+body .navbar-inverse .navbar-nav > li > a,
+body .navbar-inverse .btn-link {
+    color: #fff;
+    padding: 15px 15px;
+}
+
+.container-full {
+    float: left;
+    width: 100%;
+    background-color: rgba(0,0,0, .3);
+    margin: 52px 0 0 0;
+    padding: 25px;
+}
+
+.container-full h1:first-of-type {
+    color: #fff;
+}
+
+.container-full .grid-view,
+.container-full .detail-view {
+    background-color: #eee;
+}
+
+.footer {
+    height: 39px;
+    background-color: rgba(245, 245, 245, 0.3);
+    border-top: 1px solid #000;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding-top: 9px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    text-align: center;
+}
